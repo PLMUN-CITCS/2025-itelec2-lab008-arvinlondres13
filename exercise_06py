@@ -1,20 +1,5 @@
-#!/bin/bash
+#temperature = 35
 
-# Run the Python program and capture the output
-output=$(python if_statement_basic.py < tests/input.txt)
+if temperature > 30:
 
-# Expected output
-expected=$(cat tests/output.txt)
-
-# Check if output matches expected
-if [ "$output" == "$expected" ]; then
-  echo "Tests passed"
-  exit 0
-else
-  echo "Tests failed"
-  echo "Expected: "
-  echo "$expected"
-  echo "Got: "
-  echo "$output"
-  exit 1
-
+    print("It's a hot day!")  # Indented 4 spaces
