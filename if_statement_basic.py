@@ -1,8 +1,5 @@
-It's a hot day!
+temperature = 35
 
-if temperature > 30
+if temperature > 30:
 
-:temperature = 35 
-  
-# Or any other number 
-print("It's a hot day!")  # Indented 4 spaces
+    print("It's a hot day!")  # Indented 4 spaces
